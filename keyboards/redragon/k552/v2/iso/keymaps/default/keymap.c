@@ -58,17 +58,17 @@ const key_override_t f24_key_override = ko_make_basic(MOD_MASK_SHIFT, KC_F12, KC
 
 // This globally defines all key overrides to be used
 const key_override_t **key_overrides = (const key_override_t *[]){
-	&f13_key_override,
-      &f14_key_override,
-      &f15_key_override,
-      &f16_key_override,
-      &f17_key_override,
-      &f18_key_override,
-      &f19_key_override,
-      &f20_key_override,
-      &f21_key_override,
-      &f22_key_override,
-      &f23_key_override,
-      &f24_key_override,
-	NULL // Null terminate the array of overrides!
+    &f13_key_override,
+    &f14_key_override,
+    &f15_key_override,
+    &f16_key_override,
+    &f17_key_override,
+    &f18_key_override,
+    &f19_key_override,
+    &f20_key_override,
+    &f21_key_override,
+    &f22_key_override,
+    &f23_key_override,
+    &f24_key_override,
+    NULL // Null terminate the array of overrides!
 };
